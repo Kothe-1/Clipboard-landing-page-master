@@ -1,0 +1,196 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap');
+@media screen and (max-width: 700px) {
+    
+    button {
+    margin-bottom: 20px;
+    }
+
+    div#features {
+        width: 50%;
+        text-align: center;
+    }
+
+    div#snippets {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div#button {
+        display: flex;
+        flex-direction: column;
+    }
+
+    div#acess {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    div#tools {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+    
+    div.tools {
+        text-align: center;
+    }
+
+    div#logos img {
+        display: flex;
+        flex-direction: column;
+    }
+
+    div#sections {
+        background-color: rgb(231, 227, 227);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 60px;
+        margin: auto -50px -60px -50px;
+    }
+
+    div#sections p {
+        margin-bottom: -20px;
+    }
+    div#sections div#logos-social {
+        padding-top: 30px;
+    }
+
+    div#sections div#logos-social img {
+        margin-left: 10px;
+    }
+}
+
+@media screen and (min-width: 700px) {
+   
+    button {
+        margin-bottom: 80px;
+    }
+
+    div#features {
+        width: 40%;
+        text-align: left;
+        margin-left: 40px;
+        margin-top: 40px;
+    }
+
+    div#snippets {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    div#acess {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    div#tools {
+        display: flex;
+        width: 60%;
+        justify-content: space-around;
+    }
+    
+    div.tools {
+        width: 30%;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+
+    div#sections {
+        background-color: rgb(231, 227, 227);
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 40px 20px 40px 20px;
+        margin: auto -20px -60px -20px;
+        border: 1px solid black;
+    }
+    
+    div#sections p {
+        margin: 10px 20px 10px 20px;
+    }
+    
+    div#sections img#logo-bottom {
+        margin: 10px 60px 10px 100px;
+    }
+
+}
+
+main {
+    font-family: 'Bai Jamjuree', Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+p {
+    font-size: 18px;
+}
+
+button {
+    font-size: 18px;
+    border-radius: 25px;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    color: white;
+}
+
+div#headerbg {
+    width: 100%;
+    background-image: url(./images/bg-header-desktop.png);
+    text-align: center;
+    padding: 50px 20px 50px 20px;
+    margin: -10px -20px 0px -20px;
+}
+
+div#history {
+    text-align: center;
+    width: 50%;
+}
+
+button.button-ios {
+    background-color: hsl(171,66%,44%);
+}
+
+button.button-mac {
+    background-color: hsl(233,100%,69%);
+}
+
+div#track {
+    text-align: center;
+    width: 50%;
+    margin-bottom: 40px;
+}
+
+div#logos img {
+    margin: 45px;
+}
+
+div#clipboard {
+    text-align: center;
+    width: 50%;
+    margin-top: 50px;
+}
+
+/* Footer */
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
