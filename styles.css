@@ -45,16 +45,24 @@
         flex-direction: column;
     }
 
-    div#sections {
-        background-color: rgb(231, 227, 227);
+    div#bottom {
         width: 100%;
+        margin: auto -40px -80px -40px;
+        padding: 40px;
+        background-color: rgb(231, 227, 227);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    div#sections {
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
         padding-top: 40px;
-        padding-bottom: 60px;
-        margin: auto -50px -60px -50px;
+        padding-bottom: 40px;
     }
 
     div#sections p {
@@ -64,8 +72,8 @@
         padding-top: 30px;
     }
 
-    div#sections div#logos-social img {
-        margin-left: 10px;
+    .attribution { 
+        padding-top: 40px;
     }
 }
 
@@ -108,23 +116,42 @@
         margin-bottom: 40px;
     }
 
-    div#sections {
-        background-color: rgb(231, 227, 227);
-        width: 100%;
+    div#bottom {
         display: flex;
         flex-wrap: wrap;
-        padding: 40px 20px 40px 20px;
-        margin: auto -20px -60px -20px;
-        border: 1px solid black;
+        width: 100%;
+        background-color: rgb(231, 227, 227);
+        margin: 10px -40px -200px -40px;
+        padding: 20px;
+    }
+
+    div#sections {
+        background-color: rgb(231, 227, 227);
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
     }
     
     div#sections p {
-        margin: 10px 20px 10px 20px;
+        margin: 25px 20px 10px 20px;
+        line-height: 40px;
     }
     
     div#sections img#logo-bottom {
         margin: 10px 60px 10px 100px;
     }
+
+    div#logos-social {
+        background-color: rgb(231, 227, 227);
+        width: 20%;
+        padding-top: 40px;
+        margin-left: 20px;
+    }
+
+    div#logos-social img {
+        margin-left: 20px;
+    }
+
 
 }
 
@@ -189,6 +216,7 @@ div#clipboard {
 .attribution { 
     font-size: 11px; 
     text-align: center; 
+
 }
 
 .attribution a { 
